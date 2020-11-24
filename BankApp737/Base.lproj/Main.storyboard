@@ -52,38 +52,47 @@
         <!--Loan-->
         <scene sceneID="H7Y-Uh-8BZ">
             <objects>
-                <viewController id="nCJ-B7-hCh" sceneMemberID="viewController">
+                <viewController id="nCJ-B7-hCh" customClass="ViewController" customModule="BankApp737" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="geL-hs-WZj">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="HL2-GI-EnM">
-                                <rect key="frame" x="16" y="64" width="358" height="293"/>
+                                <rect key="frame" x="16" y="64" width="358" height="294.33333333333331"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Сумма кредита" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WpW-BB-c6J">
-                                        <rect key="frame" x="0.0" y="0.0" width="358" height="37"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="38.333333333333336"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                        <connections>
+                                            <action selector="textFieldEditingChanged:" destination="nCJ-B7-hCh" eventType="editingChanged" id="kQr-0u-8xl"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Срок в месяцах" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mAD-gf-HvL">
-                                        <rect key="frame" x="0.0" y="62" width="358" height="38.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="63.333333333333329" width="358" height="38.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                        <connections>
+                                            <action selector="textFieldEditingChanged:" destination="nCJ-B7-hCh" eventType="editingChanged" id="I8N-UQ-qCB"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Годовая ставка" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="whn-1R-Fzh">
-                                        <rect key="frame" x="0.0" y="125.33333333333333" width="358" height="38.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="126.66666666666664" width="358" height="38.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                        <connections>
+                                            <action selector="textFieldEditingChanged:" destination="nCJ-B7-hCh" eventType="editingChanged" id="PpG-Yx-erd"/>
+                                        </connections>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ежемесячный платеж" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Er8-Nc-q8N">
-                                        <rect key="frame" x="0.0" y="188.66666666666666" width="358" height="39.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="190" width="358" height="39.666666666666657"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="33"/>
                                         <color key="textColor" systemColor="systemOrangeColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dQ-Aa-rgY">
-                                        <rect key="frame" x="0.0" y="253.33333333333329" width="358" height="39.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="254.66666666666666" width="358" height="39.666666666666657"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="33"/>
                                         <color key="textColor" systemColor="systemOrangeColor"/>
@@ -101,6 +110,11 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Loan" image="creditcard.circle.fill" catalog="system" id="nXO-bc-ihe"/>
+                    <connections>
+                        <outlet property="nperTextField" destination="mAD-gf-HvL" id="Bek-xJ-NE5"/>
+                        <outlet property="pvTextField" destination="WpW-BB-c6J" id="gnj-9l-Ykn"/>
+                        <outlet property="rateTextField" destination="whn-1R-Fzh" id="wyt-uj-gXs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Zk-2l-6Ci" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
