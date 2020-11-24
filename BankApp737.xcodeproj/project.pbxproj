@@ -15,6 +15,8 @@
 		D99095A12559472700C2385D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D990959F2559472700C2385D /* LaunchScreen.storyboard */; };
 		D99CFEEE256D52B200C96267 /* ExcelFormulas.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CFEED256D52B200C96267 /* ExcelFormulas.swift */; };
 		D99CFEF2256D5ADF00C96267 /* Double + asCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CFEF1256D5ADF00C96267 /* Double + asCurrency.swift */; };
+		D99CFEF6256D62B700C96267 /* Screenshot 01.png in Resources */ = {isa = PBXBuildFile; fileRef = D99CFEF4256D62B700C96267 /* Screenshot 01.png */; };
+		D99CFEF7256D62B700C96267 /* Screenshot 02.png in Resources */ = {isa = PBXBuildFile; fileRef = D99CFEF5256D62B700C96267 /* Screenshot 02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		D99095A22559472700C2385D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D99CFEED256D52B200C96267 /* ExcelFormulas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelFormulas.swift; sourceTree = "<group>"; };
 		D99CFEF1256D5ADF00C96267 /* Double + asCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double + asCurrency.swift"; sourceTree = "<group>"; };
+		D99CFEF4256D62B700C96267 /* Screenshot 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 01.png"; sourceTree = "<group>"; };
+		D99CFEF5256D62B700C96267 /* Screenshot 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 02.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,15 +66,25 @@
 			children = (
 				D99095942559472400C2385D /* AppDelegate.swift */,
 				D990959D2559472700C2385D /* Assets.xcassets */,
+				D99CFEF1256D5ADF00C96267 /* Double + asCurrency.swift */,
 				D99CFEED256D52B200C96267 /* ExcelFormulas.swift */,
 				D99095A22559472700C2385D /* Info.plist */,
 				D990959F2559472700C2385D /* LaunchScreen.storyboard */,
 				D990959A2559472400C2385D /* Main.storyboard */,
 				D99095962559472400C2385D /* SceneDelegate.swift */,
+				D99CFEFA256D62E100C96267 /* ScreenShots */,
 				D99095982559472400C2385D /* ViewController.swift */,
-				D99CFEF1256D5ADF00C96267 /* Double + asCurrency.swift */,
 			);
 			path = BankApp737;
+			sourceTree = "<group>";
+		};
+		D99CFEFA256D62E100C96267 /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				D99CFEF4256D62B700C96267 /* Screenshot 01.png */,
+				D99CFEF5256D62B700C96267 /* Screenshot 02.png */,
+			);
+			path = ScreenShots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,9 +144,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99CFEF7256D62B700C96267 /* Screenshot 02.png in Resources */,
 				D99095A12559472700C2385D /* LaunchScreen.storyboard in Resources */,
 				D990959E2559472700C2385D /* Assets.xcassets in Resources */,
 				D990959C2559472400C2385D /* Main.storyboard in Resources */,
+				D99CFEF6256D62B700C96267 /* Screenshot 01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
