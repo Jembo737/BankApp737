@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bFF-ic-6Zo">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bFF-ic-6Zo">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -57,33 +57,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="HL2-GI-EnM">
-                                <rect key="frame" x="16" y="64" width="358" height="274.33333333333331"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="HL2-GI-EnM">
+                                <rect key="frame" x="16" y="64" width="358" height="293"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Сумма кредита" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WpW-BB-c6J">
-                                        <rect key="frame" x="0.0" y="0.0" width="358" height="38.333333333333336"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="37"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Срок в месяцах" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mAD-gf-HvL">
-                                        <rect key="frame" x="0.0" y="58.333333333333329" width="358" height="38.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="62" width="358" height="38.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Годовая ставка" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="whn-1R-Fzh">
-                                        <rect key="frame" x="0.0" y="116.66666666666664" width="358" height="38.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="125.33333333333333" width="358" height="38.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ежемесячный платеж" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Er8-Nc-q8N">
-                                        <rect key="frame" x="0.0" y="175" width="358" height="39.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="188.66666666666666" width="358" height="39.666666666666657"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="33"/>
                                         <color key="textColor" systemColor="systemOrangeColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dQ-Aa-rgY">
-                                        <rect key="frame" x="0.0" y="234.66666666666669" width="358" height="39.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="253.33333333333329" width="358" height="39.666666666666657"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="33"/>
                                         <color key="textColor" systemColor="systemOrangeColor"/>
@@ -112,6 +112,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="bFF-ic-6Zo" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="i91-gt-MlY">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
