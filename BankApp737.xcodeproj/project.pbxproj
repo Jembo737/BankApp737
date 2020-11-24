@@ -14,6 +14,7 @@
 		D990959E2559472700C2385D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D990959D2559472700C2385D /* Assets.xcassets */; };
 		D99095A12559472700C2385D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D990959F2559472700C2385D /* LaunchScreen.storyboard */; };
 		D99CFEEE256D52B200C96267 /* ExcelFormulas.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CFEED256D52B200C96267 /* ExcelFormulas.swift */; };
+		D99CFEF2256D5ADF00C96267 /* Double + asCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CFEF1256D5ADF00C96267 /* Double + asCurrency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D99095A02559472700C2385D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D99095A22559472700C2385D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D99CFEED256D52B200C96267 /* ExcelFormulas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelFormulas.swift; sourceTree = "<group>"; };
+		D99CFEF1256D5ADF00C96267 /* Double + asCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double + asCurrency.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				D990959A2559472400C2385D /* Main.storyboard */,
 				D99095962559472400C2385D /* SceneDelegate.swift */,
 				D99095982559472400C2385D /* ViewController.swift */,
+				D99CFEF1256D5ADF00C96267 /* Double + asCurrency.swift */,
 			);
 			path = BankApp737;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				D99CFEEE256D52B200C96267 /* ExcelFormulas.swift in Sources */,
 				D99095992559472400C2385D /* ViewController.swift in Sources */,
+				D99CFEF2256D5ADF00C96267 /* Double + asCurrency.swift in Sources */,
 				D99095952559472400C2385D /* AppDelegate.swift in Sources */,
 				D99095972559472400C2385D /* SceneDelegate.swift in Sources */,
 			);
